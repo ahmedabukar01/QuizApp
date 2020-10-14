@@ -1,0 +1,16 @@
+display the ground .
+==================
+display equation area 
+display solution area.
+display for circle or.
+make red background for wrong text.
+make green background for correct text.
+display popup window for winner and the loser design.
+score the game in button for start
+
+
+object 
+=======
+*random function and display it in dom.
+*functions working with the dom design
+*following what dom requires.
