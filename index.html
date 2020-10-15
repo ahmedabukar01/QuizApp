@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="somali quiz" content="Somali Quiz">
     <link rel="stylesheet" type="text/css" href="css.css">
     <title>Somali Quiz</title>
 </head>
 <body>
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="popup-text">
+                <button class="close">X</button>
+                <form class="popup-form">
+                    <label>Your Name</label>
+                    <input type="text" required placeholder="Name here ">
+                    <input type="submit" value="Enter">
+                </form>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="text">
         <h1>Math quiz</h1>
-        <p>playing with math. the science is  what drives the digital world!</p>
+        <p>playing with math. what drives the digital world!</p>
         </div>
     </header>
     <section class="section">
@@ -36,6 +49,18 @@
             
         </div>
     </section>
+    <div class="winner-wrapper">
+        <div class="winner">
+            <div class="win-text">
+                <h1>winner</h1>
+                <p class="feeling"></p>
+                <p class="name"></p>
+                <p class="message"></p>
+                <p id=marks></p>
+                <a href="#">back</a>
+            </div>
+        </div>
+    </div>
     <!--javascript-->
     <script type='text/javascript' src="app.js"></script>
 </body>
