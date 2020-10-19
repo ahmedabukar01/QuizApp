@@ -15,7 +15,7 @@ let name='';
 
 function typedata(){
     numOfDataType=Math.floor(Math.random()*4);
-    console.log(numOfDataType);
+    
     switch(numOfDataType){
         case 0:document.querySelector('#type').textContent='+';
                 break;
