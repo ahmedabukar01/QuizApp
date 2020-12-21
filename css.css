@@ -45,6 +45,7 @@ body{
     transform: translate(-50%,-35%);
     overflow:hidden;
 }
+
 .equation{
     width:200px;
     height:100px;
@@ -271,7 +272,7 @@ a{
 }
 .lost-text{
     text-align: center;
-    font-family:arial;
+    font-family:arial, Helvetica, sans-serif;
 }
 
 /*
